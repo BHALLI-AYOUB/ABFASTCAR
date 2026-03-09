@@ -124,11 +124,21 @@ const translations = {
         price: 999,
         images: [
           "/Mercedes-classe-A-pack-amg-20251.jpeg",
+          "/classa.png",
+          "/Mercedes-classe-A-pack-amg-20252.jpeg",
+          "/cla4.png"
+        ],
+        features: ["Pack AMG Line", "Gris Nardo", "Sport"],
+      },
+      {
+        name: "Mercedes CLA Pack AMG 2025",
+        category: "Berline Sport",
+        year: "2025",
+        price: 1300,
+        images: [
           "/cla1.png",
           "/cla2.png",
-          "/Mercedes-classe-A-pack-amg-20252.jpeg",
           "/cla3.png",
-          "/cla4.png"
         ],
         features: ["Pack AMG Line", "Gris Nardo", "Sport"],
       },
@@ -265,6 +275,7 @@ const translations = {
     book: "Book Now",
     explore: "Explore",
     vehicles: [
+      // ── 1 ──────────────────────────────────────────────────────────
       {
         name: "Mercedes G63",
         category: "Ultra Luxury SUV",
@@ -277,6 +288,7 @@ const translations = {
         ],
         features: ["Full Options", "Matte Black", "V8 Biturbo"],
       },
+      // ── 2 ──────────────────────────────────────────────────────────
       {
         name: "Porsche Cayenne",
         category: "Sport SUV",
@@ -289,6 +301,7 @@ const translations = {
         ],
         features: ["Full Options", "Black", "Turbo"],
       },
+      // ── 3 ──────────────────────────────────────────────────────────
       {
         name: "Range Rover Sport Dynamic SE 2025",
         category: "Prestige SUV",
@@ -304,6 +317,7 @@ const translations = {
         ],
         features: ["Full Options", "Full Black", "4x4"],
       },
+      // ── 4 ──────────────────────────────────────────────────────────
       {
         name: "Hyundai i20 2025",
         category: "City Car",
@@ -316,6 +330,7 @@ const translations = {
         ],
         features: ["Full Options", "Full Black", "Compact"],
       },
+      // ── 5 ──────────────────────────────────────────────────────────
       {
         name: "Porsche Macan T 2025",
         category: "Sport SUV",
@@ -328,6 +343,7 @@ const translations = {
         ],
         features: ["Full Options", "Nardo Grey", "Sport"],
       },
+      // ── 6 ──────────────────────────────────────────────────────────
       {
         name: "Porsche Macan 2025",
         category: "Sport SUV",
@@ -340,6 +356,7 @@ const translations = {
         ],
         features: ["Full Options", "Black", "Performance"],
       },
+      // ── 7 ──────────────────────────────────────────────────────────
       {
         name: "Volkswagen Touareg",
         category: "Luxury SUV",
@@ -354,6 +371,7 @@ const translations = {
         ],
         features: ["Full Options", "Black", "4x4"],
       },
+      // ── 8 ──────────────────────────────────────────────────────────
       {
         name: "Range Rover Evoque Dynamic SE 2025",
         category: "Compact SUV",
@@ -367,6 +385,7 @@ const translations = {
         ],
         features: ["Full Options", "Metallic Grey", "R-Dynamic"],
       },
+      // ── 9 ── Mercedes Classe A (synced exactly from FR) ────────────
       {
         name: "Mercedes Class A Pack AMG 2025",
         category: "Sport Sedan",
@@ -374,14 +393,26 @@ const translations = {
         price: 999,
         images: [
           "/Mercedes-classe-A-pack-amg-20251.jpeg",
-          "/cla1.png",
-          "/cla2.png",
+          "/classa.png",
           "/Mercedes-classe-A-pack-amg-20252.jpeg",
-          "/cla3.png",
           "/cla4.png"
         ],
         features: ["AMG Line Pack", "Nardo Grey", "Sport"],
       },
+      // ── 10 ── Mercedes CLA (new vehicle added from FR) ─────────────
+      {
+        name: "Mercedes CLA Pack AMG 2025",
+        category: "Sport Sedan",
+        year: "2025",
+        price: 1300,
+        images: [
+          "/cla1.png",
+          "/cla2.png",
+          "/cla3.png",
+        ],
+        features: ["AMG Line Pack", "Nardo Grey", "Sport"],
+      },
+      // ── 11 ── Mercedes A200 ─────────────────────────────────────────
       {
         name: "Mercedes A200 Pack AMG 2025",
         category: "Sport Sedan",
@@ -396,6 +427,7 @@ const translations = {
         ],
         features: ["AMG Line Pack", "Nardo Grey", "Sport"],
       },
+      // ── 12 ──────────────────────────────────────────────────────────
       {
         name: "Audi A3 S-Line Sedan",
         category: "Sport Sedan",
@@ -411,6 +443,7 @@ const translations = {
         ],
         features: ["RS3 Pack", "Turbo Blue", "S-Line"],
       },
+      // ── 13 ──────────────────────────────────────────────────────────
       {
         name: "Mercedes Vito 2025",
         category: "Commercial",
@@ -423,6 +456,7 @@ const translations = {
         ],
         features: ["Automatic", "White", "Practical"],
       },
+      // ── 14 ──────────────────────────────────────────────────────────
       {
         name: "Hyundai Accent 2025",
         category: "Commercial",
@@ -438,6 +472,7 @@ const translations = {
         ],
         features: ["Automatic", "White", "Practical"],
       },
+      // ── 15 ──────────────────────────────────────────────────────────
       {
         name: "Mercedes GLA 2025",
         category: "Compact SUV",
@@ -452,6 +487,7 @@ const translations = {
         ],
         features: ["Automatic", "Black", "Economical"],
       },
+      // ── 16 ──────────────────────────────────────────────────────────
       {
         name: "Hyundai Tucson 2025",
         category: "Compact SUV",
@@ -466,6 +502,7 @@ const translations = {
         ],
         features: ["Automatic", "Black", "Economical"],
       },
+      // ── 17 ──────────────────────────────────────────────────────────
       {
         name: "Cupra Formentor",
         category: "Sport SUV",
@@ -478,6 +515,7 @@ const translations = {
         ],
         features: ["Full Options", "Grey", "Performance"],
       },
+      // ── 18 ──────────────────────────────────────────────────────────
       {
         name: "Cupra Leon 2025",
         category: "Sport Sedan",
@@ -492,6 +530,7 @@ const translations = {
         ],
         features: ["Full Options", "Grey", "Sport"],
       },
+      // ── 19 ──────────────────────────────────────────────────────────
       {
         name: "Renault Clio 5 Automatic 2025",
         category: "City Car",
@@ -529,7 +568,6 @@ export function FleetSection({ language }: { language: "fr" | "en" }) {
         return newIndices
       })
     }, 5000)
-
     return () => clearInterval(interval)
   }, [t.vehicles])
 
@@ -580,14 +618,13 @@ export function FleetSection({ language }: { language: "fr" | "en" }) {
       </div>
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
-        {/* Header with stunning animation */}
+        {/* Header */}
         <div className="text-center mb-24">
           <div className="inline-flex items-center gap-2 mb-6 px-6 py-3 rounded-full bg-gradient-to-r from-yellow-500/10 to-amber-500/10 border border-yellow-500/20 backdrop-blur-sm">
             <Sparkles className="w-5 h-5 text-yellow-400 animate-pulse" />
             <span className="text-yellow-400 font-bold text-sm tracking-wider uppercase">Premium Collection</span>
             <Sparkles className="w-5 h-5 text-yellow-400 animate-pulse" />
           </div>
-          
           <h2 className="text-6xl md:text-8xl font-black mb-6 tracking-tight">
             <span className="bg-gradient-to-b from-white to-zinc-400 bg-clip-text text-transparent">{t.title}</span>
             <br />
@@ -595,13 +632,12 @@ export function FleetSection({ language }: { language: "fr" | "en" }) {
               {t.titleGradient}
             </span>
           </h2>
-          
           <p className="text-xl md:text-2xl text-zinc-400 max-w-2xl mx-auto font-light">
             {t.subtitle}
           </p>
         </div>
 
-        {/* Premium grid layout */}
+        {/* Grid */}
         <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
           {t.vehicles.map((vehicle, index) => (
             <Card
@@ -622,28 +658,19 @@ export function FleetSection({ language }: { language: "fr" | "en" }) {
 
               {/* Image container */}
               <div className="relative overflow-hidden rounded-t-3xl h-72 md:h-80 lg:h-96">
-                {/* Dark gradient background */}
                 <div className="absolute inset-0 bg-gradient-to-br from-zinc-900 via-zinc-950 to-black"></div>
-                
-                {/* Centered image */}
                 <div className="absolute inset-0 flex items-center justify-center p-4">
                   <img
                     src={vehicle.images[currentImageIndices[index] || 0] || "/placeholder.svg"}
                     alt={vehicle.name}
                     className="w-full h-full object-contain transition-all duration-700 group-hover:scale-110"
-                    style={{
-                      filter: 'drop-shadow(0 25px 50px rgba(0,0,0,0.6))'
-                    }}
+                    style={{ filter: 'drop-shadow(0 25px 50px rgba(0,0,0,0.6))' }}
                     loading="lazy"
                   />
                 </div>
-                
-                {/* Subtle vignette effect */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-black/10"></div>
-                
-                {/* Enhanced gradient overlay on hover */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                
+
                 {/* Navigation arrows */}
                 {vehicle.images.length > 1 && (
                   <>
@@ -677,13 +704,13 @@ export function FleetSection({ language }: { language: "fr" | "en" }) {
                     />
                   ))}
                 </div>
-                
+
                 {/* Year badge */}
                 <Badge className="absolute top-6 left-6 bg-black/90 backdrop-blur-md text-white border border-yellow-500/50 font-bold px-5 py-2.5 text-sm shadow-2xl shadow-yellow-500/30 z-10">
                   <Zap className="w-4 h-4 mr-1.5 inline text-yellow-400" />
                   {vehicle.year}
                 </Badge>
-                
+
                 {/* Category badge */}
                 <Badge className="absolute top-6 right-6 bg-gradient-to-r from-yellow-400 via-amber-400 to-yellow-500 text-black border-0 font-black px-6 py-3 text-xs rounded-full shadow-2xl shadow-yellow-500/40 tracking-wider uppercase z-10">
                   {vehicle.category}
@@ -695,7 +722,7 @@ export function FleetSection({ language }: { language: "fr" | "en" }) {
                 <h3 className="text-2xl font-black text-white mb-4 tracking-tight group-hover:text-yellow-400 transition-colors duration-300">
                   {vehicle.name}
                 </h3>
-                
+
                 {/* Features */}
                 <div className="flex flex-wrap gap-2 mb-6">
                   {vehicle.features.map((feature, i) => (
@@ -708,7 +735,7 @@ export function FleetSection({ language }: { language: "fr" | "en" }) {
                   ))}
                 </div>
 
-                {/* Price and CTA section */}
+                {/* Price and CTA */}
                 <div className="flex items-end justify-between pt-6 border-t border-zinc-800/50">
                   <div className="space-y-1">
                     <div className="flex items-baseline gap-1">
@@ -717,11 +744,9 @@ export function FleetSection({ language }: { language: "fr" | "en" }) {
                       </span>
                       <span className="text-lg text-zinc-500 font-bold">DH</span>
                     </div>
-                    <div className="text-sm text-zinc-500 font-medium">
-                      {t.perDay}
-                    </div>
+                    <div className="text-sm text-zinc-500 font-medium">{t.perDay}</div>
                   </div>
-                  
+
                   <Button
                     onClick={(e) => {
                       e.stopPropagation()
@@ -745,9 +770,9 @@ export function FleetSection({ language }: { language: "fr" | "en" }) {
         </div>
       </div>
 
-      {/* ZOOMED MODAL VIEW */}
+      {/* ZOOMED MODAL */}
       {zoomedVehicle && (
-        <div 
+        <div
           className="fixed inset-0 z-50 flex items-center justify-center bg-black/95 backdrop-blur-xl p-4 animate-fadeIn"
           onClick={() => setZoomedVehicle(null)}
         >
@@ -759,18 +784,13 @@ export function FleetSection({ language }: { language: "fr" | "en" }) {
           </button>
 
           <div className="relative w-full max-w-7xl" onClick={(e) => e.stopPropagation()}>
-            {/* MASSIVE IMAGE DISPLAY */}
             <div className="relative w-full h-[80vh] flex items-center justify-center">
               <img
                 src={zoomedVehicle.vehicle.images[zoomedImageIndex]}
                 alt={zoomedVehicle.vehicle.name}
                 className="max-w-full max-h-full object-contain"
-                style={{
-                  filter: 'drop-shadow(0 30px 60px rgba(234, 179, 8, 0.3))'
-                }}
+                style={{ filter: 'drop-shadow(0 30px 60px rgba(234, 179, 8, 0.3))' }}
               />
-
-              {/* Navigation arrows for zoomed view */}
               {zoomedVehicle.vehicle.images.length > 1 && (
                 <>
                   <button
@@ -789,14 +809,11 @@ export function FleetSection({ language }: { language: "fr" | "en" }) {
               )}
             </div>
 
-            {/* Image info and thumbnails */}
             <div className="mt-8 text-center">
               <h3 className="text-4xl font-black text-white mb-4">
                 {zoomedVehicle.vehicle.name}
               </h3>
-              
-              {/* Thumbnail navigation */}
-              <div className="flex gap-4 justify-center items-center mt-6">
+              <div className="flex gap-4 justify-center items-center mt-6 flex-wrap">
                 {zoomedVehicle.vehicle.images.map((img, idx) => (
                   <button
                     key={idx}
